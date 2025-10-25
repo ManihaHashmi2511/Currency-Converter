@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Agbalumo";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: cornsilk;
+}
+h1{
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: "Sail";
+    font-size: 40px;
+    color: rgb(35, 75, 148);
+}
+.amount p{
+    color: rgb(10, 10, 128);
+    font-size: 18px;
+}
+.container{
+    background-color: #fff;
+    box-shadow: 1px 1px 15px gray;
+    padding: 32px;
+    border: 1px solid gray;
+    border-radius: 16px;
+    min-height: 50vh;
+}
+form{
+    margin: 1.75rem 0;
+}
+form select, button, input{
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+form input{
+    border: 1px solid lightsteelblue;
+    font-size: 16px ;
+    padding-left: 13px;
+    height: 40px;
+}
+.dropdowns{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdowns img{
+    max-width: 32px;
+}
+.dropdowns i{
+    font-size: 30px;
+    margin-top: 22px;
+}
+.dropdowns p{
+    color: rgb(10, 10, 128);
+    font-size: 17px;
+}
+.select-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightsteelblue;
+    border-radius: 10px;
+    width: 6rem;
+}
+.dropdowns select{
+    width: auto;
+    font-size: 16px;
+}
+.mssg{
+    font-size: 18px;
+    letter-spacing: .7px;
+    text-align: center;
+    color: rgb(22, 48, 95);
+    margin: 30px 0;
+}
+form button{
+    height: 40px;
+    background-color: rgb(146, 177, 233);
+    font-size: 20px;
+    border: 1px solid darkblue;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+    color: rgb(7, 7, 66);
+    cursor: pointer;
+}
